@@ -21,9 +21,9 @@ h4,
 h5,
 h6 {
   margin: 0 0 35px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 1px;
 }
 p {
@@ -223,8 +223,8 @@ a:focus {
   }
 }
 .content-section {
-  padding-top: 100px;
-  padding: 90px 0;
+  padding-top: 0px;
+  padding: 0px 0;
   height: 110%;
 }
 .download-section {
@@ -245,7 +245,7 @@ a:focus {
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 250px;
+    padding-top: 135px;
   }
   .download-section {
     padding: 100px 0;
