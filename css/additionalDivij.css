@@ -48,6 +48,12 @@ ul.social-buttons li a:active {
   outline: none;
 }
 
+.separator{
+  height:1px;
+  width:80%;
+  border-bottom:1px solid #fff;
+}
+
 /*.project-section{
 	background-color: #fff;
 	width: 100%;
