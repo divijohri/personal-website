@@ -11,6 +11,9 @@
 
     <title>Divij Ohri</title>
 
+    <!-- AOS CSS and JS -->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -24,13 +27,6 @@
 
     <!-- Additional CSS by Divij -->
     <link href="css/additionalDivij.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
     <!--More CSS Styles -->
     <style type="text/css">
@@ -125,9 +121,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <p class="newIntro">
-                            <br>
+                        <!-- <p class="newIntro"> -->
+                            <br><br>
+                            <div data-aos="zoom-out" data-aos-duration="2000">
                             <center><img class="center-img img-circle img-responsive" src="pictures/divij.jpg" alt="" width="250px" height="250px"></center>
+                            </div>
                             <br><br>
                             <!-- <ul class="list-inline social-buttons">
                              <li><a href="https://twitter.com/divijohri_"><i class="fa fa-twitter"></i></a>
@@ -141,17 +139,19 @@
                              <li><a href="https://www.behance.net/divijohri"><i class="fa fa-behance"></i></a>
                              </li>
                             </ul> -->
+                            <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
                             <p><font face="Pangram-Light">
-                            Hi I'm <font face="Pangram-Regular">Divij</font>, a sophomore<br>
-                            studying Computer Science at <font face="Pangram-Regular">UCLA</font>.<br>
+                            Hi I'm <font face="Pangram-Regular">Divij</font>.<br>
+                            A sophomore studying Computer Science at <font face="Pangram-Regular">UCLA</font>.<br>
                             I love creating things that impact people's lives.<br>
                             </font>
                             </p>
-
-                            </p>
-                        <a href="#about" class="btn btn-circle page-scroll">
+                            </div>
+                            <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="900">
+                            <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+                            </a>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -162,16 +162,34 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1">
+                <div data-aos="zoom-out" data-aos-duration="2500" data-aos-delay="100">
                 <h2>ABOUT</h2>
+                </div>
                 <br><br>
                 <font face="Pangram-Light">
+                <div data-aos="fade-right" data-aos-duration="2500">
                 <p>I am a second year Computer Science major at <a href = "http://www.ucla.edu"> University of California, Los Angeles</a>, currently seeking a Software Engineering Intern role in the Summer of 2018. I always ensure quality output from my end and undertake every task with zeal and sincerity.
                 </p>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="2500" data-aos-delay="200">
                 <p>
                 I am passionate about creating technological <a href = "#project"> products </a> for users and chase this passion by competing at hackathons, where I build some cool <a href = "https://devpost.com/divijohri98">things</a>. In the summer of 2017 I worked at <a href = "http://www.opsveda.com/">OpsVeda</a>, a Silicon Valley startup, and created a prototype blockchain solution for the Global Brands Group.
                 </p>
-                <p>When I’m away from computers, I enjoy debating and reading about global politics. I take part in Model UN and was the Director of IAEA, <a href = "http://www.bruinmun.org/">BruinMUN</a> 2016. In my free time, I love working out and playing basketball with friends.</p>
-                <p>In 2016, I graduated from DPS-Gurgaon, India with a Gold Medal in Continuous Academic Excellence. I held the post of Vice Head Boy in the Student Council and Under Secretary in the Model UN Society. I was Founder & President at a <a href = "https://www.facebook.com/teamshikshakendra/"> community outreach club</a> in school that still impacts lives of many underprivileged students.</p>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="2500" data-aos-delay="200">
+                <p>When I’m away from computers, I enjoy debating and reading about global politics. I take part in Model UN and was the Director of IAEA, <a href = "http://www.bruinmun.org/">BruinMUN</a> 2016. In my free time, I love working out and playing basketball with friends.
+                </p>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="2500" data-aos-delay="200">
+                <p>In 2016, I graduated from DPS-Gurgaon, India with a Gold Medal in Continuous Academic Excellence. I held the post of Vice Head Boy in the Student Council and Under Secretary in the Model UN Society. I was Founder & President at a <a href = "https://www.facebook.com/teamshikshakendra/"> community outreach club</a> in school that still impacts lives of many underprivileged students.
+                </p>
+                </div>
+                <span style="display:block; height: 100px;"></span>
+                <center>
+                <div class="separator" data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="200">
+                </div>
+                </center>
+                <span style="display:block; height: 80px;"></span>
                 </font>
             </div>
         </div>
@@ -361,7 +379,8 @@
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
-
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 
 </html>
